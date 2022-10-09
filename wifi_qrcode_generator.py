@@ -5,8 +5,8 @@ import jinja2
 import os
 import qrcode
 import qrcode.image.svg
-import toml
 import sys
+import toml
 
 class Wifi_QRCode:
 
