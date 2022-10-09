@@ -12,16 +12,16 @@ passphrases (like guest networks), as long as the device supports QRCode scannin
 
 Make sure you have QRCode, Jinja and toml dependencies installed:
 
-~~~shell
+```sh
 pip install jinja2
 pip install qrcode
 pip install toml
-~~~ 
+``` 
 
 Then pass to stdin a toml-like file that contains all the needed elements to
 output the proper HTML page:
 
-~~~shell
+```sh
 $ git clone https://github.com/jymigeon/wifi_qrcode_generator.git
 $ cd wifi_qrcode_generator.git
 $ cat wifi.toml
@@ -29,9 +29,8 @@ title = "Wifi network: Example"
 type = "WPA2" # WEP, WPA or WPA2
 ssid = "Example Wifi Network"
 passphrase = "The passphrase usually goes there"
-'''
 $ python wifi_qrcode_generator.py < wifi.toml > wifi.html
-~~~
+```
 
 Will output the [following HTML](./wifi.html), as based on the provided [Jinja2 template](./template.j2):
 
