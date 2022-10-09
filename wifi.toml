@@ -1,0 +1,4 @@
+title = "Wifi network: Example"
+type = "WPA2" # WEP, WPA or WPA2
+ssid = "Example Wifi Network"
+passphrase = "The passphrase usually goes there"

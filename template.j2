@@ -1,0 +1,45 @@
+<html version="5.0">
+  <head>
+    <title>{{ title }}</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+        table, th, td {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+	    border: 1px solid;
+            border-collapse: collapse;
+        }
+        td:first-child {
+            font-weight: bold;
+        }
+    </style>
+    <script>
+      function copy_to_clipboard(textId) {
+        let text = document.getElementById(textId).innerText;
+        try {
+          navigator.clipboard.writeText(text);
+          alert('copied!');
+        } catch(err) {
+          alert('error while copying text: ', err);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>{{ title|e }}</h1>
+    <table>
+      <tr>
+        <td>SSID</td>
+        <td><button onclick="copy_to_clipboard('ssid')">copy to clipboard</button>&nbsp;<span id="ssid">{{ ssid|e }}</span></td>
+      </tr>
+      <tr>
+        <td>Passphrase</td>
+        <td><button onclick="copy_to_clipboard('passphrase')">copy to clipboard</button>&nbsp;<span id="passphrase">{{ passphrase|e }}</span></td>
+      </tr>
+    </table>
+    {{ qrcode }}
+  </body>
+</html>
