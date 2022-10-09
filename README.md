@@ -11,7 +11,7 @@ networks via a toml file and outputs an HTML page (rendered via Jinja2).
 Used to ease addition of Wifi networks with lengthy and/or rotating
 passphrases (like guest networks), as long as the device supports QRCode scanning.
 
-## How-to use
+## How-to use
 
 Make sure you have QRCode, Jinja and toml dependencies installed:
 
@@ -19,7 +19,7 @@ Make sure you have QRCode, Jinja and toml dependencies installed:
 pip install jinja2
 pip install qrcode
 pip install toml
-``` 
+```
 
 Then pass to stdin a toml-like file that contains all the needed elements to
 output the proper HTML page:
