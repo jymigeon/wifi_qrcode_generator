@@ -5,7 +5,7 @@ Javascript to ease management of lengthy passphrases.
 
 ## Description
 
-A simple/naive Python script that generates *standalone* QRCodes for Wifi
+A simple/naive Python script that generates *standalone* [QRCodes for Wifi](https://en.wikipedia.org/wiki/QR_code)
 networks via a toml file and outputs an HTML page (rendered via Jinja2).
 
 Used to ease addition of Wifi networks with lengthy and/or rotating
@@ -13,7 +13,7 @@ passphrases (like guest networks), as long as the device supports QRCode scannin
 
 ## How-to use
 
-Make sure you have QRCode, Jinja and toml dependencies installed:
+Make sure you have [QRCode](https://pypi.org/project/qrcode/), [Jinja2](https://pypi.org/project/Jinja2/) and [toml](https://pypi.org/project/toml/) dependencies installed:
 
 ```sh
 pip install jinja2
