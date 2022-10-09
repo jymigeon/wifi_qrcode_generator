@@ -1,7 +1,5 @@
 # wifi_qrcode_generator
 
-## Description
-
 A simple/naive Python script that generates *standalone* QRCodes for Wifi
 networks via a toml file and outputs an HTML page (rendered via Jinja2).
 
