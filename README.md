@@ -1,5 +1,10 @@
 # wifi_qrcode_generator
 
+Shows how to expose Wifi credentials through QRCode and copy-to-clipboard
+Javascript to ease management of lengthy passphrases.
+
+## Description
+
 A simple/naive Python script that generates *standalone* QRCodes for Wifi
 networks via a toml file and outputs an HTML page (rendered via Jinja2).
 
