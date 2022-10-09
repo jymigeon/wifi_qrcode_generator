@@ -1,7 +1,8 @@
 # wifi_qrcode_generator
 
 Shows how to expose Wifi credentials through QRCode and copy-to-clipboard
-Javascript to ease management of lengthy passphrases.
+Javascript to ease management of lengthy passphrases, via a small Python
+program.
 
 ## Description
 
