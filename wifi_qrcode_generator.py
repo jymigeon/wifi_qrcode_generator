@@ -1,4 +1,4 @@
-#! /usr/pkg/bin/python3.7
+#! /usr/bin/env python
 # -*- encoding: utf-8 -*-
 
 import jinja2
