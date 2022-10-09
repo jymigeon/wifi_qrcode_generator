@@ -6,7 +6,7 @@ program.
 
 ## Description
 
-A simple/naive Python script that generates *standalone* [QRCodes for Wifi](https://en.wikipedia.org/wiki/QR_code)
+A [simple/naive Python script](./wifi_qrcode_generator.py) that generates *standalone* [QRCodes for Wifi](https://en.wikipedia.org/wiki/QR_code)
 networks via a toml file and outputs an HTML page (rendered via Jinja2).
 
 Used to ease addition of Wifi networks with lengthy and/or rotating
