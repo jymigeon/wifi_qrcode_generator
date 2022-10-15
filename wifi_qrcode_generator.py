@@ -15,7 +15,7 @@ class Wifi_QRCode:
 		self._factory = qrcode.image.svg.SvgPathImage
 
 	def read_conf(self, _toml):
-		"""Read toml file that contains Wifi network information"""
+		"""Interpret toml that contains Wifi network information"""
 		data = toml.loads(_toml)
 		self._title = data.get("title", "Title placeholder")
 		self._ssid = data.get("ssid", "SSID placeholder")
