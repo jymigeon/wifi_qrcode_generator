@@ -27,7 +27,7 @@ output the proper HTML page:
 
 ```sh
 $ git clone https://github.com/jymigeon/wifi_qrcode_generator.git
-$ cd wifi_qrcode_generator.git
+$ cd wifi_qrcode_generator
 $ cat wifi.toml
 title = "Wifi network: Example"
 type = "WPA2" # WEP, WPA or WPA2
